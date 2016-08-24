@@ -49,7 +49,6 @@ $(document).ready(function() {
     });
 
 //2часть чекбоксы
- $(function() {
 (function($) {
     $.existsN = function(nabir) {
         return (nabir.length > 0);
@@ -232,8 +231,6 @@ $(document).ready(function() {
         return methods[m];
     };
 })(jQuery);
-});
-
 $(function() {
     $('.frame-checks-not-standart').nStCheck()
 });
